@@ -7,10 +7,11 @@ application = Flask(__name__)
 @application.route('/core-wallet/checkversion')
 def check_version():
 	version = request.args.get('version')
-	changed = (version=='1.0.0')
+	current = '6.2.0.72'
+	changed = (version==current)
 	return jsonify(
-		latest=changed,
-		current_version='1.0.0',
+		latest=True,
+		current_version=current,
 		change_log='Initial version'
 	)
 
