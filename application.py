@@ -17,7 +17,7 @@ def check_version():
         latest=changed,
         current_version=current,
         change_log='Initial version',
-        tag='v6.2.3'
+        tag='global'
     )
 
 
