@@ -5,3 +5,7 @@ API Endpoint for IOP Apps (Core Client and Mobile Apps)
 /core-wallet/checkversion?version=<version>
 Example:
 http://iopglobalapi-env.yemthitaza.us-east-1.elasticbeanstalk.com/core-wallet/checkversion?version=1.0.0
+
+/price?symbol=<currencySymbol>
+Example:
+http://iopglobalapi-env.yemthitaza.us-east-1.elasticbeanstalk.com/price?symbol=iop
